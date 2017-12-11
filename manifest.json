@@ -1,0 +1,33 @@
+{
+	"manifest_version" : 2,
+	"name" : "TwitchMaster Coin Earner",
+	"short_name" : "TM CE",
+	"version" : "1.0",
+	"author" : "Alexey Popov",
+	"description" : "Зарабатываем монеты на TwitchMaster",
+
+	"icons" : {
+		"16" : "icons/16x16.png",
+		"32" : "icons/32x32.png",
+		"48" : "icons/48x48.png",
+		"64" : "icons/64x64.png",
+		"128" : "icons/128x128.png"
+	},
+
+	"permissions": [
+      "activeTab"
+    ],
+
+	"background" : {
+		"scripts" : ["background.js"],
+		"persistent" : false
+	},
+
+    "browser_action": {
+        "default_title": "Coin Earner",
+        "default_icon": "icons/48x48.png"
+		//"default_popup": "popup.html"
+    }
+}
+
+
